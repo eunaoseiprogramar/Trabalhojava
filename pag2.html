@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="grid-item">Nome <input type="text" id="nome" oninput="salvarnome()"></div>
+        <div class="grid-item"> Email <input type="text" id="email" oninput="salvaremail()"></div>
+        <div class="grid-item">Telefone <input type="text" id="telefone" oninput="salvartelefone()"></div>  
+        <div class="grid-item">CPF <input type="text" id="cpf" oninput="salvarcpf()"></div>
+        <div class="grid-item">Senha <input type="password" id="senha" oninput="salvarsenha()"></div>
+
+      </div>
+      <div id="btnconcluir">
+<a href="perfil.html" id="Concluir">Concluir</a>
+</div>
+
+<script src="bd.js"></script>
+</body>
+</html>
